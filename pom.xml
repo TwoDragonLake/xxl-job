@@ -1,6 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>com.twoDragonLake</groupId>
+		<artifactId>base</artifactId>
+		<version>1.0</version>
+	</parent>  	
+	
 	<groupId>com.xuxueli</groupId>
 	<artifactId>xxl-job</artifactId>
 	<version>1.9.0-SNAPSHOT</version>
@@ -43,7 +50,6 @@
 		<groovy-all.version>2.4.5</groovy-all.version>
 		<mail.version>1.4.6</mail.version>
 		<quartz.version>2.3.0</quartz.version>
-
 		<spring-boot.version>1.5.6.RELEASE</spring-boot.version>
 	</properties>
 
